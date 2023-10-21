@@ -34,11 +34,12 @@ class Program
         int height = array3.GetLength(0); // высота
         int width = array3.GetLength(1); // ширина
 
-        for (int i = 0; 1 < width; i++) // высота
+        for (int i = 0; i < width; i++) // высота
         {
             for (int j = 0; j < height; j++) // ширина
             {
                 Console.Write(array3[j, i] + "\t");
+
             }
             Console.WriteLine();
         }
@@ -46,6 +47,7 @@ class Program
 
 
     }
+}
 
 
 
